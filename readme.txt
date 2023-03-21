@@ -8,6 +8,7 @@ Make sure to attach this script to your player object in the Unity Editor, and a
 the object as well. You may also need to add a Collider2D component to the object and create a "Ground" object 
 with a Collider2D component for the player to land on.
 
+
 Fire2D Script.....
 This script allows the player to fire a bullet using the left mouse button. The script uses the Instantiate() method to create a new instance of the bullet prefab at the position and rotation of the fire point. The script then gets a reference to the Rigidbody2D component of the bullet and adds force to it in the direction of the fire point using the AddForce() method.
 
